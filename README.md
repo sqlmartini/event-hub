@@ -18,11 +18,10 @@ https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/eventhub/azure-eve
         | CONNECTION_STR | Obtained from Shared Access Policy setting of Event Hub namespace
         | EVENTHUB_NAME | Name of your Azure Event Hub
 
-        | ENV VAR NAME | VALUE |
-        | ---------- | ---------- |
-        | AZURE_CLIENT_ID | id of an Azure Active Directory application
-        | AZURE_TENANT_ID | id of the application's Azure Active Directory tenant
-        | AZURE_CLIENT_SECRET | one of the application's client secrets
+| ENV VAR NAME | VALUE |
+|--------------|-------|
+| CONNECTION_STR | TEST |
+| EVENTHUB_NAME | TEST |
 
 ## Python 3.7 Virtual Environment Creation and Configuration (Windows)
     ```
