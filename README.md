@@ -13,11 +13,6 @@ https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/eventhub/azure-eve
 - Azure Event Hubs client library for Python (https://pypi.org/project/azure-eventhub/)
 - Two environment variables configured:
 
-        | ENV VAR NAME   | VALUE |
-        | -------------- | --------------------------------------------------------------------- |
-        | CONNECTION_STR | Obtained from Shared Access Policy setting of Event Hub namespace |
-        | EVENTHUB_NAME  | Name of your Azure Event Hub |
-
     | ENV VAR NAME | VALUE |
     |--------------|-------|
     | CONNECTION_STR | Obtained from Shared Access Policy setting of Event Hub namespace |
