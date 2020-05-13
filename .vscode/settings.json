@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "c:\\Users\\Administrator\\source\\repos\\event-hub\\venv\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
+}
