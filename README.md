@@ -1,8 +1,8 @@
 # event-hub
 
-This is a simple repo to show how to send and receive messages to Azure Event Hub.
+This is a simple repo to show how to send and receive messages using Azure Event Hub.
 
-- **send.py**:  Sends a batch of 100 messages of mocked up time series telemetry
+- **send.py**:  Sends a batch of 100 messages of mocked up time-series machine telemetry
 - **receive.py**:  Receives and prints messages from the Event Hub
 
 Azure Event Hubs client library for Python Samples:
@@ -17,6 +17,12 @@ https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/eventhub/azure-eve
         | ---------- | ---------- |
         | CONNECTION_STR | Obtained from Shared Access Policy setting of Event Hub namespace
         | EVENTHUB_NAME | Name of your Azure Event Hub
+
+        | ENV VAR NAME | VALUE |
+        | ---------- | ---------- |
+        | AZURE_CLIENT_ID | id of an Azure Active Directory application
+        | AZURE_TENANT_ID | id of the application's Azure Active Directory tenant
+        | AZURE_CLIENT_SECRET | one of the application's client secrets
 
 ## Python 3.7 Virtual Environment Creation and Configuration (Windows)
     ```
