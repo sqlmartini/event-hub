@@ -20,8 +20,8 @@ https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/eventhub/azure-eve
 
 | ENV VAR NAME | VALUE |
 |--------------|-------|
-| CONNECTION_STR | TEST |
-| EVENTHUB_NAME | TEST |
+| CONNECTION_STR | Obtained from Shared Access Policy setting of Event Hub namespace |
+| EVENTHUB_NAME | Name of your Azure Event Hub |
 
 ## Python 3.7 Virtual Environment Creation and Configuration (Windows)
     ```
