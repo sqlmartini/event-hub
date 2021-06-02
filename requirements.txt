@@ -38,6 +38,6 @@ six==1.14.0
 toml==0.10.0
 typed-ast==1.4.1
 uamqp==1.2.7
-urllib3==1.25.9
+urllib3==1.26.5
 wrapt==1.12.1
 yarl==1.4.2
